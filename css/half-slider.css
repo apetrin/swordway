@@ -44,6 +44,9 @@
     margin-top: 0px;
 }
 
+.bg-primary p {
+    font-size: 20px;
+}
 footer {
     margin: 50px 0;
 }

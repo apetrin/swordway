@@ -52,7 +52,7 @@ p {
 }
 
 .bg-primary {
-    background-color: #f05f40;
+    background-color: rgba(240, 95, 64, 0.75);
 }
 
 .bg-dark {
@@ -61,7 +61,8 @@ p {
 }
 
 .text-faded {
-    color: rgba(255,255,255,.7);
+    color: rgba(255,255,255,1);
+    font-size: 20px;
 }
 
 section {
