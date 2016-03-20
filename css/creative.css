@@ -173,17 +173,24 @@ aside {
 }
 
 header {
+    background-color: #000;
     position: relative;
     width: 100%;
     min-height: auto;
     text-align: center;
     color: #fff;
-    background-image: url(../img/header.jpg);
-    background-position: center;
+}
+
+header .header-image {
+    opacity: 0.40;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+    background-position: center;
+    background-image: url(../img/header.jpg);
+    -webkit-filter: blur(2px);
+    height: 800px;
 }
 
 header .header-content {
@@ -205,6 +212,7 @@ header .header-content .header-content-inner hr {
 }
 
 header .header-content .header-content-inner p {
+    color: #000;
     margin-bottom: 50px;
     font-size: 16px;
     font-weight: 300;
